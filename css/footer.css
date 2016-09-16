@@ -1,0 +1,21 @@
+footer{
+    background-color: #2196F3;
+    color: #fff;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+footer section{
+    border-top: 2px solid #616161;
+    background-image: url('../images/pw_maze_black.png');
+    padding: 15px 0px;
+}
+footer section p {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+footer section p span {
+    color: #2196F3;
+}

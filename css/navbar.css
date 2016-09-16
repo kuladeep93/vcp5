@@ -1,0 +1,7 @@
+.navbar-default{
+    height: 100px;
+    background-color: #fff;
+}
+.navbar-default li{
+    padding: 40px 0;
+}
