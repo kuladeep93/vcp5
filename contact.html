@@ -36,9 +36,10 @@ and open the template in the editor.
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                         <li><a href="#">Join Us</a></li>
                     </ul>
@@ -87,7 +88,33 @@ and open the template in the editor.
                     </aside>
                 </div>
                 <div class="col-md-8">
-
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Name *</label><br>
+                                <input type="text" name="name" placeholder="Your Name"/>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Email *</label><br>
+                                <input type="email" name="email" placeholder="Your MailId"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Mobile *</label><br>
+                                <input type="text" name="mobile" placeholder="Your Mobile No"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <label>Message *</label>
+                                <textarea rows="9" name="message" placeholder="Your Query"></textarea>
+                            </div>
+                            <div class="col-xs-4">
+                                <button class="btn btn-default fa fa-paper-plane-o" type="submit">&emsp; Send a message</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>

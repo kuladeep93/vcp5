@@ -1,3 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.navbar{
+    margin-bottom: 0;
+}
 a:hover,a:focus,a:active{
     text-decoration: none;
 }
@@ -9,9 +17,11 @@ a:hover,a:focus,a:active{
     padding: 40px 0;
 }
 .navbar-default img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     float: left;
+    padding-top: 10px;
+    margin-right: 10px;
 }
 .navbar-brand{
     padding: 2px;   
@@ -20,5 +30,6 @@ a:hover,a:focus,a:active{
 .navbar-brand span{
     padding: 40px 0;
     float: right;
-    color: #2196F3;
+    color: #90d899;
+    font-size: 40px;
 }

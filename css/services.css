@@ -1,5 +1,6 @@
-a:hover, a:active, a:focus{
-    text-decoration: none;
+#title{
+    background-color: #2196F3;
+    color: #fff;
 }
 section{
     padding: 20px 0;
@@ -35,6 +36,29 @@ section{
     width: 200px;
     background-color: #056ece;
 }
+
+.title-container{
+    padding: 20px;
+}
+.title-container .fa{
+    float: left;
+    margin-right: 16px;
+    font-size: 90px;
+    color: #2196F3;
+}
+.title-container .caption-cont h3{
+    color: rgb(240,37,42);
+    margin: 5px;
+    font-size: 40px;
+}
+.title-container .caption-cont span{
+    color: #008000;
+    font-size: 25px;
+}
+
+/****************************
+services circle section
+*********************************/
 .box{
     width: 20%;
     height: 140px;
@@ -58,4 +82,10 @@ section{
 }
 .round-box:hover{
     background-color: rgba(234,37,42,1);
+}
+#services ul{
+    margin-top: 20px;
+}
+#services li{
+    list-style: square;
 }
