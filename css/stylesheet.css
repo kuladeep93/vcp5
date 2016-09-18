@@ -1,11 +1,3 @@
-
-
-/**********************
-reset css
-************************/
-a:hover, a:active, a:focus{
-    text-decoration: none;
-}
 section{
     padding: 20px 0;
 }

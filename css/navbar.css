@@ -1,7 +1,24 @@
+a:hover,a:focus,a:active{
+    text-decoration: none;
+}
 .navbar-default{
     height: 100px;
     background-color: #fff;
 }
 .navbar-default li{
     padding: 40px 0;
+}
+.navbar-default img {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.navbar-brand{
+    padding: 2px;   
+    display: inline;
+}
+.navbar-brand span{
+    padding: 40px 0;
+    float: right;
+    color: #2196F3;
 }

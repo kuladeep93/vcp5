@@ -19,7 +19,34 @@ aside {
     -moz-border-radius: 0;
     border-radius: 0;
 }
-h4{
+.header-content h4{
     text-transform: uppercase;
     color: #1fa4e7;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.header-content{
+    border-bottom: 2px solid #1fa4e7;
+    margin-bottom: 20px;
+}
+.header-content span{
+    padding: 15px;
+    background-color: #1fa4e7;
+    color: #fff;
+}
+aside ul{
+    list-style: none;
+    padding-left: 0px;
+}
+aside li{
+    line-height: 20px;
+    padding: 10px 0;
+}
+aside label{
+    color: #008000;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+aside p{
+    font-weight: bold;
 }
