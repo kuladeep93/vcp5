@@ -1,10 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
+@font-face {
+    font-family: renogare;
+    src: url(../fonts/Renogare.ttf);
+}
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
 }
 .navbar{
     margin-bottom: 0;
+    overflow: hidden;
 }
 a:hover,a:focus,a:active{
     text-decoration: none;
@@ -18,7 +23,7 @@ a:hover,a:focus,a:active{
 }
 .navbar-default img {
     height: 80px;
-    width: 80px;
+    width: 60px;
     float: left;
     padding-top: 10px;
     margin-right: 10px;
@@ -28,6 +33,7 @@ a:hover,a:focus,a:active{
     display: inline;
 }
 .navbar-brand span{
+    font-family: renogare;
     padding: 40px 0;
     float: right;
     color: #90d899;
