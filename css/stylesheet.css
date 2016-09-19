@@ -178,6 +178,8 @@ contact section content
     position: absolute;
     overflow: hidden;
     height: 90vh;
+    transition-duration: 0.3s;
+    
 }
 #hero .first-sub-section{
     left: 0;
@@ -194,9 +196,10 @@ contact section content
 #hero .fifth-sub-section{
     left: 80%;
 }
-.is-hovered{
+#hero .sub-section.is-hovered{
+    left: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 10;
     background-color: #fff;
 }
 .sub-section h3{

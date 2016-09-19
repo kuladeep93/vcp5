@@ -1,14 +1,7 @@
 $(function () {
-
-
-    $(".first-sub-section").mouseenter(function () {
-        $('.first-sub-section').addClass('.is-hovered');
-        console.log("mouse entered");
+    $(".sub-section").mouseenter(function () {
+        $(this).addClass('is-hovered');
     }).mouseleave(function () {
-        $('.first-sub-section').removeClass('.is-hovered');
-        console.log("mouse exited");
+        $(this).removeClass('is-hovered');
     });
-
-
-
 });
