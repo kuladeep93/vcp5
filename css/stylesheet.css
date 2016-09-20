@@ -210,7 +210,7 @@ hero section
     left: 60%;
 }
 #hero .fourth-sub-section.is-hovered{
-    background-image: url('../images/dm.jpg');
+    background-image: url('../images/E-Commerce.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -218,7 +218,7 @@ hero section
     left: 80%;
 }
 #hero .fifth-sub-section.is-hovered{
-    background-image: url('../images/onine.jpg');
+    background-image: url('../images/portal-development.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -228,11 +228,12 @@ hero section
     z-index: 10;
 }
 .sub-section h3{
-    color: #fff;
+    color: #000;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    background: rgba(0, 123, 195, 0.73);
+    background: rgba(251, 34, 65,0.75);
+    font-weight: bold;
 }
 .sub-section .top{
     margin-top: 70vh;
