@@ -185,23 +185,47 @@ hero section
 #hero .first-sub-section{
     left: 0;
 }
+#hero .first-sub-section.is-hovered{
+    background-image: url('../images/digitalmarketing.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 #hero .second-sub-section{
     left: 20%;
+}
+#hero .second-sub-section.is-hovered{
+    background-image: url('../images/mobile app development.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 #hero .third-sub-section{
     left: 40%;
 }
+#hero .third-sub-section.is-hovered{
+    background-image: url('../images/mobile app development.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 #hero .fourth-sub-section{
     left: 60%;
 }
+#hero .fourth-sub-section.is-hovered{
+    background-image: url('../images/dm.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 #hero .fifth-sub-section{
     left: 80%;
+}
+#hero .fifth-sub-section.is-hovered{
+    background-image: url('../images/onine.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 #hero .sub-section.is-hovered{
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: #fff;
 }
 .sub-section h3{
     color: #fff;
