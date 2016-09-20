@@ -211,10 +211,10 @@ hero section
     background: rgba(0, 123, 195, 0.73);
 }
 .sub-section .top{
-    margin-top: 20vh;
+    margin-top: 70vh;
 }
 .sub-section .bottom{
-    margin-top: 60vh;
+    margin-top: 70vh;
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
